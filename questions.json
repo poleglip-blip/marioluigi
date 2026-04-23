@@ -1,0 +1,52 @@
+[
+{
+"q": "How to keep your tummy healthy?",
+"q_zh": "怎麼讓腸胃健康？",
+"a": { "en": "Drink water", "zh": "喝水" },
+"o": [
+{ "en": "Eat old food", "zh": "吃過期食物" },
+{ "en": "Drink water", "zh": "喝水" },
+{ "en": "No exercise", "zh": "不運動" }
+]
+},
+{
+"q": "Which is a good poo?",
+"q_zh": "哪個是健康的便便？",
+"a": { "en": "Soft", "zh": "柔軟" },
+"o": [
+{ "en": "Hard", "zh": "很硬" },
+{ "en": "Soft", "zh": "柔軟" },
+{ "en": "Watery", "zh": "很水" }
+]
+},
+{
+"q": "Why do people get constipation?",
+"q_zh": "為什麼會便秘？",
+"a": { "en": "Not enough water", "zh": "水不夠" },
+"o": [
+{ "en": "Too many fruits", "zh": "太多水果" },
+{ "en": "Not enough water", "zh": "水不夠" },
+{ "en": "Too much exercise", "zh": "太多運動" }
+]
+},
+{
+"q": "Who helps with medicine?",
+"q_zh": "誰幫助用藥？",
+"a": { "en": "Pharmacist", "zh": "藥師" },
+"o": [
+{ "en": "Teacher", "zh": "老師" },
+{ "en": "Pharmacist", "zh": "藥師" },
+{ "en": "Chef", "zh": "廚師" }
+]
+},
+{
+"q": "What should you do before eating?",
+"q_zh": "吃東西前要做什麼？",
+"a": { "en": "Wash hands", "zh": "洗手" },
+"o": [
+{ "en": "Wash hands", "zh": "洗手" },
+{ "en": "Sleep", "zh": "睡覺" },
+{ "en": "Play", "zh": "玩" }
+]
+}
+]
