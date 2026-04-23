@@ -185,8 +185,19 @@
         ];
 
         // Load from storage or use defaults
-        let questionBank = JSON.parse(localStorage.getItem('marioMazeData')) || defaultQuestions;
+        let questionBank = [];async function loadQuestions() {
+  try {const res = await fetch('questions.json');
+    const data = await res.json();
+    questionBank = data;
+    console.log("Questions loaded from JSON:", questionBank);
+ startGame();
+  } catch (err) {
+    console.error("Failed to load JSON, using default:", err);
+    questionBank = defaultQuestions;
 
+    startGame();
+  }
+}
         function saveToStorage() {
             localStorage.setItem('marioMazeData', JSON.stringify(questionBank));
         }
